@@ -1,0 +1,67 @@
+
+
+body {
+    background: url(mybg.png);
+	background-size: 100% 100%;
+	background-color: black;
+	color: white;
+	text-shadow: 2px 2px #000000;
+	text-align: center;
+	
+}
+
+#codes{
+      /* Chrome, Safari, Opera */
+	-webkit-animation-name: codes;
+    -webkit-animation-duration: 5s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-delay: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-play-state: running;
+    /* Standard syntax */
+	animation-name: codes;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes  codes{
+    0%   {color:white; }
+    25%  {color:lightgreen; }
+    50%  {color:lightblue; }
+    75%  {color: red; }
+    100% {color:white; }
+}
+
+/* Standard syntax */
+@keyframes codes{
+    0%   {color:purple;}
+    25%  {color:blue;}
+    50%  {color:green;}
+    75%  {color:orange;}
+    100% {color:red;}
+	  
+	  
+	  }
+/* unvisited link */
+a:link {
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: grey;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}
