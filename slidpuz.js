@@ -95,7 +95,3 @@ function checkSolved() {
   solved = flag;
 }
 
- if (solved) {
-    setTimeout(function() {alert("You solved it!");}, 500);
-  }
-};
