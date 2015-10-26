@@ -1,35 +1,35 @@
-<!doctype html>
-<html>
-    
-    <head>
-	<link rel="stylesheet" type="text/css" href="main.css">
-        <meta charset="utf-8">
-        <title></title>
-        <style>
-            .picture {
-                border: 1px solid black;
-            }
-        </style>
+	<!doctype html>
+	<html>
 		
-    </head>
-    
-    <body>
+		<head>
+		<link rel="stylesheet" type="text/css" href="main.css">
+			<meta charset="utf-8">
+			<title>The Loot Hunt is On!</title>
+			<style>
+				.picture {
+					border: 1px solid black;
+				}
+			</style>
+			
+		</head>
 		
+		<body>
+			<h1>Solve The Puzzle to Receive Treasure as Well as a Clue to More!</h1>
+			
+			<div id="slider">
+				<form>
+				   
+					<input type="hidden" id="scale" value="4" min="4" max="4" step="1">
+				   
+				</form>
+				<br>
+			</div>
+			<div id="main" class="main">
+				<canvas id="puzzle" width="720px" height="720px"></canvas>
+			</div>
+			<script src="slidpuz.js"></script>
+			
 		
-        <div id="slider">
-            <form>
-               
-                <input type="hidden" id="scale" value="4" min="4" max="4" step="1">
-               
-            </form>
-            <br>
-        </div>
-        <div id="main" class="main">
-            <canvas id="puzzle" width="720px" height="720px"></canvas>
-        </div>
-        <script src="slidpuz.js"></script>
-		
-    
-	</body>
+		</body>
 
-</html>
+	</html>
