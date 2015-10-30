@@ -39,7 +39,7 @@ document.getElementById('puzzle').onclick = function(e) {
   
   if (solved) {
       open.window("http://tinyurl.com/hlxkpnyyx");
-    }
+    };
 };
 
 };
