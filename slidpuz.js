@@ -38,11 +38,11 @@ document.getElementById('puzzle').onclick = function(e) {
   }
   
   if (solved) {
-      open.window("http://tinyurl.com/hlxkpnyyx");
-    };
+    setTimeout(function() {window.open("http://tinyurl.com/hlxkpnyyx");}, 500);
+  }
 };
 
-};
+
 
 function setBoard() {
   boardParts = new Array(tileCount);
