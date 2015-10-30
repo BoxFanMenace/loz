@@ -36,6 +36,12 @@ document.getElementById('puzzle').onclick = function(e) {
     slideTile(emptyLoc, clickLoc);
     drawTiles();
   }
+  
+  if (solved) {
+      open.window("http://tinyurl.com/hlxkpnyyx");
+    }
+};
+
 };
 
 function setBoard() {
