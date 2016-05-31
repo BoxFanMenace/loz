@@ -1,7 +1,7 @@
 var context = document.getElementById('puzzle').getContext('2d');
 
 var img = new Image();
-img.src = 'http://i.imgur.com/xjQpX4D.jpg'; /* Gah! You cheating bastard! Get out of here! */
+img.src = 'http://i.imgur.com/K223k3X.png?1'; /* Gah! You cheating bastard! Get out of here! */
 img.addEventListener('load', drawTiles, false);
 
 var boardSize = document.getElementById('puzzle').width;
