@@ -38,7 +38,7 @@ document.getElementById('puzzle').onclick = function(e) {
   }
   
   if (solved) {
-    setTimeout(function() {window.open("http://tinyurl.com/hlxkpnyyx");}, 500);
+    setTimeout(function() {window.open("https://www.gog.com/game/the_witcher_3_wild_hunt_game_expansion_pass");}, 500);
   }
 };
 
