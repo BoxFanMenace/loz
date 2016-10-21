@@ -37,10 +37,10 @@ document.getElementById('puzzle').onclick = function(e) {
     drawTiles();
   }
   
- // if (solved) {
-   // setTimeout(function() {window.alert("Maddy rocks!"));}, 500);
-  //}
-//};
+  if (solved) {
+    setTimeout(function() {alert("You solved it!");}, 500);
+  }
+};
 
 
 
