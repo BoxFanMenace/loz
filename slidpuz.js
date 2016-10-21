@@ -38,7 +38,7 @@ document.getElementById('puzzle').onclick = function(e) {
   }
   
   if (solved) {
-    setTimeout(function() {window.alert("Maddy rocks!"););}, 500);
+    setTimeout(function() {window.alert("Maddy rocks!"));}, 500);
   }
 };
 
