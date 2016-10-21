@@ -1,7 +1,7 @@
 var context = document.getElementById('puzzle').getContext('2d');
 
 var img = new Image();
-img.src = 'http://i.imgur.com/K223k3X.png?1'; /* Gah! You cheating bastard! Get out of here! */
+img.src = 'http://i.imgur.com/zaqXCn4.jpg?1'; /* Gah! You cheating bastard! Get out of here! */
 img.addEventListener('load', drawTiles, false);
 
 var boardSize = document.getElementById('puzzle').width;
@@ -38,7 +38,7 @@ document.getElementById('puzzle').onclick = function(e) {
   }
   
   if (solved) {
-    setTimeout(function() {window.open("https://www.gog.com/game/the_witcher_3_wild_hunt_game_expansion_pass");}, 500);
+    setTimeout(function() {window.alert("Maddy rocks!"););}, 500);
   }
 };
 
